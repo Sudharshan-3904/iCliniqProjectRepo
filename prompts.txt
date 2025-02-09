@@ -1,0 +1,45 @@
+A file for prompts to be given to the system
+
+i had a fever of 103 and took some crosin. the fever did not subside and i ended upfainting when my son carried me to the hospital. they want to operate to find the root of the issue. what should i do ?
+
+i have vomitted 4 times lastnight and have painful muscle aches with mild fatigue. Recently has a gastric bypass surgery. what ahould i do next ?
+
+I've been experiencing a persistent dry cough and shortness of breath for the past two weeks. I have no fever but feel fatigued. What could be causing this?  
+
+I have a sharp pain in my lower right abdomen that worsens when I press on it. Could this be appendicitis, and what should I do next?  
+
+My 5-year-old has a fever of 102°F, runny nose, and is complaining of ear pain. Could this be an ear infection or something more serious?  
+
+I was prescribed amoxicillin for a bacterial infection, but I’m allergic to penicillin. What alternative antibiotics can I take?  
+
+I take lisinopril for high blood pressure and recently started ibuprofen for back pain. Are there any potential interactions I should be aware of?  
+
+Can I take loratadine and diphenhydramine together for my severe allergies, or will it cause excessive drowsiness?  
+
+Someone near me is having a seizure. What should I do to help them safely?  
+
+I accidentally ingested a small amount of household bleach. What should I do, and when should I go to the ER?  
+
+My father, who has diabetes, is showing confusion, sweating, and shakiness. How can I quickly raise his blood sugar?  
+
+I've been feeling constantly anxious and having trouble sleeping. Could this be generalized anxiety disorder, and what coping strategies can help?  
+
+I feel persistently sad, lack motivation, and have lost interest in activities I once enjoyed. Could this be depression, and what are my options?  
+
+My friend is talking about ending their life. How can I support them and get them the help they need?  
+
+I have Type 2 diabetes and want to lower my blood sugar naturally. What dietary and lifestyle changes do you recommend?  
+
+I have hypertension and my doctor recommended the DASH diet. Can you give me a sample meal plan for a day?  
+
+I have asthma and often experience attacks triggered by exercise. What preventive measures can I take?  
+
+I missed my period by two weeks, but my pregnancy test is negative. What other factors could be causing this delay?  
+
+I'm a 50-year-old male experiencing fatigue and low libido. Could this be low testosterone, and what should I discuss with my doctor?  
+
+My toddler swallowed a small piece of plastic. What signs should I watch for, and when should I seek medical attention?  
+
+My child has a rash that started as red spots and has now turned into blisters. Could this be chickenpox, and how should I manage it?  
+
+What are the recommended vaccines for an adult in their 40s, and how often should I get them?  
