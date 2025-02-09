@@ -1,0 +1,8 @@
+PLease Tun the cli first to resgister and then the gui for usage
+
+
+Parts of the gui are still yet to be linked with the backend
+
+
+Run src > usage.py for cli
+Run src > usage_dui.py for gui
