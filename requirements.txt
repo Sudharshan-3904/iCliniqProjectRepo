@@ -1,7 +1,0 @@
-argparse
-werkzeug
-requests
-pymongo
-pdfplumber
-paddleocr
-opencv-python
