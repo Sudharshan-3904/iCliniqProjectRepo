@@ -1,0 +1,22 @@
+```
+| Category            | Parameter                   | Value                 | Reference Range                    | Remarks |
+|---------------------|--------------------------------|------------------------|------------------------------------|----------|
+| Patient Info        | Name                         | John Doe                | N/A                                |          |
+| Patient Info        | Age                          | 45 years                | N/A                                |          |
+| Vital Signs        | Heart Rate                   | 78 bpm                  | 60-100 bpm                         | Normal   |
+| Vital Signs        | Blood Pressure               | 130/85 mmHg             | 90/60 - 120/80 mmHg                | Slightly Elevated |
+| Vital Signs        | Respiratory Rate             | 16 breaths/min          | 12-20 breaths/min                  | Normal   |
+| Blood Test          | Hemoglobin                   | 14.2 g/dl               | 13.8-17.2 g/dL                      | Normal   |
+| Blood Test          | WBC Count                    | 6,800 cells/L           | 4,500-11,000 cells/uL              | Normal   |
+| Blood Test         | Platelet Count               | 210,000 cells/uL        | 150,000-400,000 cells/uL           | Normal   |
+| Blood Test        | Blood Glucose (Fasting)      | 110 mg/dL               | 70-99 mg/dl                        | Prediabetic |
+| Blood Test         | Cholesterol (LDL)            | 140 mg/dL               | <100 mg/dL                         | High     |
+| Liver Function     | ALT (Liver Enzyme)           | 32 U/L                  | 7-56 U/L                           | Normal   |
+| Liver Function     | AST (Liver Enzyme)           | 29 U/L                  | 10-40 U/L                          | Normal   |
+| Kidney Function    | Creatinine                  | 1.1 mg/dl               | 0.7-1.2 mg/dL                      | Normal   |
+| Kidney Function    | Urea                        | 30 mg/dl                | 7-20 mg/dl                         | Slightly Elevated |
+| Imaging            | ECG                         | Normal Sinus Rhythm     | N/A                                | No Issues |
+| Imaging           | Chest X-ray                  | No Abnormalities Detected | N/A                                | No Issues |
+| Diagnosis          | Primary Diagnosis            | Mild Hypertension       | N/A                                | Monitor BP Regularly |
+| Diagnosis [ ]     | Recommended Action           | Lifestyle Changes Advised | Diet and Exercise Recommended      |          |
+```

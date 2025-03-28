@@ -1,0 +1,1 @@
+{"model": "meditron-7b", "messages": [{"role": "system", "content": "Provide clear and concise medical instructions or information in simple language. Avoid academic discussions or references to research papers."}, {"role": "user", "content": "What is adviced in the report"}], "temperature": 0.05, "max_tokens": 150, "top_k": 20, "repeat_penalty": 2.0, "top_p": 0.3, "min_p": 0.4}
