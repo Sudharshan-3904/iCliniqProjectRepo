@@ -1,14 +1,36 @@
-# System Documentation
+# iCliniq Medical Assistant
 
 ## System Overview
-The system provides an integrated platform for user authentication, chatbot interactions, file storage and processing, and data extraction. It consists of multiple components including:
+The iCliniq Medical Assistant is an integrated platform providing medical assistance through AI-powered chatbot interactions, secure file management, and intelligent data processing capabilities. The system consists of multiple components including:
 
-- **Auth**: Handles user authentication via SQLite database.
-- **Chatbot**: Connects with an external AI model for chat-based responses.
-- **FileStorage**: Stores and retrieves files in a MongoDB database.
-- **FileProcessor**: Processes and filters data stored in files.
-- **DataExtractor**: Extracts tabular data from structured text.
-- **ICliniq**: A higher-level class managing all functionalities together.
+- **Auth**: Handles user authentication via SQLite database
+- **Chatbot**: Connects with an external AI model for medical chat-based responses
+- **FileStorage**: Stores and retrieves files in a MongoDB database
+- **FileProcessor**: Processes and filters medical data stored in files
+- **DataExtractor**: Extracts tabular data from structured medical texts
+- **ICliniq**: A higher-level class managing all functionalities together
+
+## Key Features
+- Medical document processing and analysis
+- AI-powered medical chat assistance
+- Secure user authentication
+- Structured data extraction
+- Multi-lingual support
+
+## Technical Requirements
+
+### System Dependencies
+- Python 3.8+
+- MongoDB
+- SQLite3
+- Tesseract OCR
+- PaddleOCR
+
+### Computing Resources
+- Sufficient vCPUs for processing
+- Adequate vRAM for model operations
+- Storage for document management
+- Recommended: AWS EC2 or similar cloud compute
 
 ## Modules and Classes
 
@@ -16,10 +38,10 @@ The system provides an integrated platform for user authentication, chatbot inte
 Handles user authentication and database management.
 
 #### Methods:
-- `__init__()`: Initializes the SQLite database.
-- `_init_db()`: Creates the users table if it does not exist.
-- `register(username: str, password: str) -> bool`: Registers a new user.
-- `login(username: str, password: str) -> tuple[bool, int]`: Logs in a user.
+- `__init__()`: Initializes the SQLite database
+- `_init_db()`: Creates the users table if it does not exist
+- `register(username: str, password: str) -> bool`: Registers a new user
+- `login(username: str, password: str) -> tuple[bool, int]`: Logs in a user
 
 ### 2. `Chatbot`
 Facilitates interactions with a chatbot model.
@@ -75,19 +97,66 @@ Main class integrating all functionalities.
 - `start_new_chat() -> None`: Starts a new chat.
 - `logout() -> None`: Logs out the user.
 
-## System Execution
-The system is executed using the `ICliniq` class. An example usage:
+## User Interfaces
+
+### 1. Streamlit Interface
+- Web-based interactive interface
+- Real-time chat visualization
+- File upload/download capabilities
+- Data visualization features
+- State-Managed
+
+### 2. GUI (Graphical User Interface)
+- Desktop application interface
+- Native file system integration
+- Local processing capabilities
+- Offline mode support
+
+### 3. CLI (Command Line Interface)
+- Terminal-based interaction
+- Scripting and automation support
+- Batch processing capabilities
+- Server deployment options
+
+## Current Status & Development
+
+### Implemented Features
+- Basic chatbot functionality with multilingual support
+- File storage using MongoDB and SQLite
+- OCR capabilities for document processing
+- Table structure extraction
+- Basic data filtering and searching
+
+### In Development
+- RAG model implementation
+- Structured file storage improvements
+- Local ML model for translation
+- Enhanced data extraction capabilities
+
+## Future Roadmap
+
+### Short Term
+- Implement RAG model for improved chat responses
+- Enhance data extraction accuracy
+- Optimize database queries
+- Implement structured file storage
+
+### Long Term
+- Deploy ML/DL model for advanced OCR
+- Implement YOLO v5 for document processing
+- Create local translation model
+- Scale compute resources
+
+## Basic Usage Example
 ```python
+# Initialize and use the system
 thing = ICliniq()
-thing.login("sujit", "sujit")
-thing.upload_file("test", "algo_ops\\texts\\extracted_struct_str.txt")
-res = thing.chat("What is advised in the report")
-print(res)
+thing.login("username", "password")
+thing.upload_file("test", "path/to/medical/report.txt")
+response = thing.chat("What is advised in the report")
+print(response)
 ```
 
-## Future Improvements
-- Improve chatbot accuracy by refining queries.
-- Enhance error handling.
-- Optimize database queries for better performance.
-- Enable dynamic selection of AI models.
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
