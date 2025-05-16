@@ -1,14 +1,9 @@
-sqlite3
-json
 werkzeug
 requests
-os
 pandas
 pymongo
 bson
 python-dotenv
 unstract
 llmwhisperer-client
-tkinter
-sys
 streamlit
